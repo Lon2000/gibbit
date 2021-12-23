@@ -299,6 +299,7 @@ video {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1rem 1rem;
+  
 }
 .box4 {
   width: 481px;
@@ -310,6 +311,7 @@ video {
   align-items: flex-start;
   justify-content: flex-start;
   padding: 10px;
+  
   
 }
 
@@ -763,4 +765,22 @@ video {
       display:grid;
       grid-template-columns: 1fr;
     }
+  }
+
+
+
+  #cf6_image {
+    margin:40px auto;
+    width:450px;
+    height:281px;
+    transition: background-image 1s ease-in-out;
+    background-image:url("https://images.pexels.com/photos/6936406/pexels-photo-6936406.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  #cf6_image:hover {
+    background-image:url("https://images.pexels.com/photos/6936407/pexels-photo-6936407.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    object-fit: cover;
   }
