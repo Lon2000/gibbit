@@ -131,13 +131,21 @@ video {
   align-items: center;
 }
 .stories-img-container img {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   border-radius: 16px;
   object-fit: cover;
   position: relative;
-  left: 300px;
+  left: 15rem;
 }
+
+  .stories-container-content h1 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 43px;
+    margin-bottom: 41px;
+  }
+
 
 .img-kulay {
   position: absolute;
@@ -211,7 +219,7 @@ video {
 
 /* ______________________________________________________________________________________________________________ */
 .grabittum {
-  height: 610px;
+  height: 100%;
   /* background-color: #ffff; */
 }
 .grabbitum-container {
@@ -747,5 +755,12 @@ video {
   @media screen and (max-width:320px){
     #nices{
     width:30%;
+    }
+  }
+
+  @media screen and (max-width:320px){
+    .Execu-con{
+      display:grid;
+      grid-template-columns: 1fr;
     }
   }
